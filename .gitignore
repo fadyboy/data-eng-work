@@ -1,0 +1,5 @@
+*.csv
+/infra/keys/*
+*.gz
+/my_taxi_data
+/infra/.terraform/*

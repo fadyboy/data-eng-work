@@ -1,0 +1,21 @@
+services:
+  nydatapostgresdb:
+    image: postgres:13
+    container_name: ny_datapgdb
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=root
+      - POSTGRES_DB=ny_taxi
+    volumes:
+      - "./my_taxi_data:/var/lib/postgresql/data:rw"
+    ports:
+      - "5435:5432"
+
+  nydatapgadmin:
+    image: dpage/pgadmin4
+    container_name: ny_datapgad
+    environment:
+      - PGADMIN_DEFAULT_EMAIL=admin@admin.com
+      - PGADMIN_DEFAULT_PASSWORD=root
+    ports:
+      - "8082:80"
