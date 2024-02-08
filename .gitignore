@@ -3,3 +3,5 @@
 *.gz
 /my_taxi_data
 /infra/.terraform/*
+*.json 
+*.__pycache__

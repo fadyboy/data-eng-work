@@ -1,0 +1,2 @@
+{"operation": "create", "resource": {"type": "pipeline", "uuid": "majestic_moon"}, "timestamp": 1707272524, "user": null}
+{"operation": "create", "resource": {"type": "pipeline", "uuid": "data_gcs_copy"}, "timestamp": 1707274891, "user": null}
