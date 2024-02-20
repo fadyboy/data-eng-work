@@ -10,6 +10,7 @@ pandas = "*"
 sqlalchemy = "*"
 psycopg2 = "*"
 ipykernel = "*"
+pyarrow = "*"
 
 [dev-packages]
 
