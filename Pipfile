@@ -10,6 +10,8 @@ pandas = "*"
 sqlalchemy = "*"
 psycopg2 = "*"
 ipykernel = "*"
+pyarrow = "*"
+dlt = {extras = ["duckdb"], version = "*"}
 
 [dev-packages]
 

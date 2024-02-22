@@ -29,6 +29,7 @@ def main(args):
     df = next(df_iter)
 
     # convert text datetime columns to datetime
+    #TODO: change to parse dates option
     df.tpep_pickup_datetime = pd.to_datetime(df.tpep_pickup_datetime)
     df.tpep_dropoff_datetime = pd.to_datetime(df.tpep_dropoff_datetime)
 
